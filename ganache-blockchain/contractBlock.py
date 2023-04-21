@@ -12,7 +12,7 @@ web3.eth.defaultAccount = web3.eth.accounts[0]
 # Path to the compiled contract JSON file
 compiled_contract_path = 'ganache-blockchain/build/contracts/HelloWorld.json'
 # Deployed contract address (see `migrate` command output: `contract address`)
-deployed_contract_address = '0x2172a96fbCBe0cc7037a411d4be2d2255220dc6b'
+deployed_contract_address = '0xE8D12199cb934FfD152c423794Aab16f9F22B398'
 
 with open(compiled_contract_path) as file:
     contract_json = json.load(file)  # load contract info as JSON
